@@ -7,7 +7,7 @@ export default function About() {
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                   <div className="md:5/12 lg:w-5/12">
                       <img
-                          src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                          src="https://imgs.search.brave.com/9r7L9XEos7jySWoRvWK6Ue5ho4cqZHr0yaFjml9F7uo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/OTMzMzE4NjA1NjQt/NzUxYTkxOWFhMmMy/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1UUjhmSE5s/WVNVeU1HSmxZV05v/ZkdWdWZEQjhmREI4/Zkh3dw"
                           alt="image"
                       />
                   </div>

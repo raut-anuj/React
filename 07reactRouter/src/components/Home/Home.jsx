@@ -1,5 +1,6 @@
 import React from "react";
 import {Link, NavLink} from "react-router-dom";
+
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -31,12 +32,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="https://imgs.search.brave.com/6_ffSITf7_ErWOs4-ic-IuV1mPLjkhopYSfkmAWeMC8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vdmFyaWFu/dHMvTkR2Zm1MeFdr/OHp5RzJwZHZneEFk/YmRmLzYyNGYwZGMx/ZGZmOWJkY2NhYjAz/MmY5M2MzM2U3OWRl/Nzg0ODE3NzBlNzll/MjFkM2IwNDY5ZGFm/NTFmMDI3OTc" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-96 w-48" src="https://imgs.search.brave.com/nUG1VG6hCo5uJdLF_3hfVugJ3Ge8v0oHXojiPd1zRwo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzMw/MjYvNjk3NC9maWxl/cy9mYW1pbHktc3Rh/ci1maXNoLXNhbmQt/YmVhY2gtb2NlYW5f/MzBmZTU1ZmYtYjRm/Yi00ZWUwLWFjYWYt/OGU5NDVlOWMxZDIy/XzEwMjR4MTAyNC5q/cGc_dj0xNTMxOTM0/MDU0" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>

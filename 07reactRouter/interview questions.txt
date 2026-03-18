@@ -1,0 +1,10 @@
+1 Component kya hota hai
+2 Layout kya hota hai
+3 createBrowserRouter
+4 RouterProvider
+5 Outlet
+6 Link
+7 NavLink
+8 isActive
+9 Dynamic Route (:id)
+10 useParams
