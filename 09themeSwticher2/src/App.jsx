@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { ThemeProvider } from './context/theme'
-import Button from './components/button'
+import Button from './components/Button'
 import Card from './components/Card'
 import './index.css'
 
