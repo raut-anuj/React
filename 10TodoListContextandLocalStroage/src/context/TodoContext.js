@@ -1,4 +1,9 @@
 import { useContext, createContext } from "react";
+// useState → state manage
+// useEffect → side effects
+// TodoProvider → context data share
+// TodoForm → todo add UI
+// TodoItem → todo show
 
 export const TodoContext = createContext({
     todos:[
@@ -8,6 +13,10 @@ export const TodoContext = createContext({
             completed:false,
         },
     ],
+
+    // Ye dummy function hai.
+    // Iska kaam sirf ye batana hai ki context me addTodo naam ka function hoga.
+    // Isko React ignore kar deta hai jab provider value mil jati hai.
     addTodo: (todo)=> {},
     updateTodo: (idx, todo)=> {},
     toogleTodo: (idx)=> {},

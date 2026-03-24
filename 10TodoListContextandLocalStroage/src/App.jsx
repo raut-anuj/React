@@ -16,7 +16,7 @@ const App = () => {
     setTodos((prev) => [{id:Date.now(), ...todo}, ...prev])
   }
 
-  const updateTodo = (idx,todo) => {
+  const updateTodo = (idx, todo) => {
     setTodos((prev) => prev.map( (prevTodo) => prevTodo.id === idx ? todo : prevTodo ))
   }
 

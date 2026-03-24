@@ -5,7 +5,9 @@ function TodoItem({ todo }) {
 
     const [editable, setEditable] = useState(false)
     const [todoMsg, setTodoMsg] = useState(todo.todo)
-
+    // editable → edit mode
+    // todoMsg → edited text
+    
     const { updateTodo, deleteTodo, toogleTodo } = useTodo()
 
     const editTodo = () => {
