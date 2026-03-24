@@ -6,8 +6,10 @@ export const ThemeContext = createContext({
     lightTheme: () => {},
 })
 
-export const ThemeProvider = ThemeContext.Provider
+//custom Hook.
 
 export default function useTheme(){
     return useContext(ThemeContext)
 }
+
+export const ThemeProvider = ThemeContext.Provider
