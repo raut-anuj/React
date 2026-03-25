@@ -13,8 +13,11 @@ import GitHub from './components/GitHub/GitHub.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element:<Layout />,
+    element:<Layout />,  //Layout component render hoga
     children:[
+      // Nested route
+      // Parent = Layout       
+      // Children = pages
       {
         path:"",
         element:<Home />
@@ -49,7 +52,6 @@ const router = createBrowserRouter([
 //   )
 // ;)
 
- 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <RouterProvider router={router}/>
