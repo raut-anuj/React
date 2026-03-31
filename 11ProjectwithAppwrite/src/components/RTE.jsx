@@ -6,7 +6,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
         {label && <label className='inline-block mb-1 pl-1'>
             {label}</label>}
 
-            <Controller
+    <Controller
     name={name || "content"}
     control={control}
     render={({field: {onChange}}) => (
@@ -43,6 +43,9 @@ export default function RTE({name, control, label, defaultValue =""}) {
             content_style: "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }"
         }}
         onEditorChange={onChange}
+        //   Jab user kuch likhta hai:
+        // ➡️ onChange call hota hai
+        // ➡️ Data form me store ho jata hai
         />
     )}
     />
